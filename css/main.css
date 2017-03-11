@@ -1,0 +1,167 @@
+/*div {
+  border: 1px solid red;
+}*/
+
+body {
+  background-color: #2F2F2F;
+}
+
+body, html {
+  height: 100%;
+}
+
+
+
+h1 {
+  color: #2F2F2F;
+  font-size: 2em;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #E9E9E9;
+  margin: 2%;
+}
+
+h2.sub{
+  margin: 2% auto 10% auto;
+}
+
+h2.featured{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h3   {
+  color: #2F2F2F;
+  font-size: 1.5em;
+}
+
+h4   {
+  color: #E9E9E9;
+  margin-bottom: 10%
+  }
+
+.modal-dialog{
+  width: 80%;
+  }
+
+
+@media (min-width: 600px) {
+  .container {
+    width: 570px;
+  }
+  h1 {
+  font-size: 3em;
+  }
+  h3   {
+  font-size: 2em;
+  }
+  .modal-dialog{
+  width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  h1 {
+  font-size: 5em;
+  }
+  h3   {
+  font-size: 2em;
+  }
+
+/*  .col1, .col2, .col3{
+  border-left: 1px solid #DE1B1B;
+  height: 1900px;
+  }
+
+  .col3{
+  border-right: 2px solid #DE1B1B;
+  }*/
+
+  .modal-dialog{
+  width: 40%;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+figcaption {
+  color: #bb021e;
+  font-family: 'Roboto condensed', sans-serif;
+  padding: 2em 0;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.profile{
+  padding: 1%;
+}
+
+.afterhead{
+  height: 1em;
+  background-color: #FFFFFF;
+  margin: 0px;
+}
+
+.headdiv{
+  background-color: #FFFFFF;
+  padding: 0px;
+  border-bottom: 0.8em solid #DE1B1B;
+}
+
+.img-responsive{
+  margin: 0 auto;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.modal-content{
+  background-color: #2F2F2F;
+}
+
+.modalFig{
+  margin-bottom: 5%
+}
+
+.navbar-centered .navbar-nav {
+        float: none;
+        text-align: center;
+}
+.navbar-centered .navbar-nav > li {
+    float: none;
+}
+.navbar-centered .nav > li {
+    display: inline;
+}
+.navbar-centered .nav > li > a {
+    display: inline-block;
+}
+
+figcaption.sub{
+  color: #FFFFFF;
+  margin-bottom: 10%;
+}
+figcaption.featured{
+  color: #FFFFFF;
+  margin-bottom: 0%;
+  font-size: 16px;
+}
+
+div.sectionHead{
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
